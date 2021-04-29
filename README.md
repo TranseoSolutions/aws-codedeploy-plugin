@@ -1,6 +1,13 @@
 AWS CodeDeploy Jenkins Plugin
 =============================
 
+/**********************************/
+
+### History
+This repo was originally forked from https://github.com/jenkinsci/aws-codedeploy-plugin, which was forked from https://github.com/awslabs/aws-codedeploy-plugin, but both of which appear to be abandoned.  In the event those repositories come back to life, we will re-contribute the subsequent changes of this and deprecate it in favor of the original authors' work
+
+/**********************************/
+
 The AWS CodeDeploy Jenkins plugin provides a post-build step for your Jenkins
 project. Upon a successful build, it will zip the workspace, upload to S3, and
 start a new deployment. Optionally, you can set it to wait for the deployment to
